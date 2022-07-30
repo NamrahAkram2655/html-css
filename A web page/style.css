@@ -1,0 +1,21 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+.image img{
+    width: 90%;
+    height: 50vh;
+}
+.box1{
+    display: block;
+    width: 90%;
+    margin: 3vh auto;
+}
+.box1 ul li{
+    margin: 0px 6vh;
+}
