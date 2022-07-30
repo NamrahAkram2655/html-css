@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    display: inline;
+    position: absolute;
+    text-align: center;
+    border: 2px solid black;
+    height: 55vh;
+    width: 15vw;
+    margin-left: 2vh;
+}
+
+.box1 .logo img {
+    height: 9vh;
+    margin-top: 2vh;
+}
+
+.box1 button {
+    background-color: black;
+    color: wheat;
+    padding: 6px;
+    width: 14vw;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box2 {
+    display: inline;
+    position: absolute;
+    left: 57vh;
+    text-align: center;
+    border: 2px solid crimson;
+    height: 55vh;
+    width: 15vw;
+    background: linear-gradient(pink, crimson);
+}
+
+.box2 .logo2 img {
+    margin-top: 1.5vh;
+    height: 9vh;
+}
+
+.box2 button {
+    background-color: white;
+    color: crimson;
+    padding: 6px;
+    width: 14vw;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box3 {
+    display: inline;
+    position: absolute;
+    left: 95vh;
+    text-align: center;
+    border: 2px solid black;
+    height: 55vh;
+    width: 15vw;
+}
+
+.box3 .logo3 img {
+    height: 11vh;
+}
+
+.box3 button {
+    background-color: black;
+    color: wheat;
+    padding: 6px;
+    width: 14vw;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container{
+    display: block;
+    width: 85%;
+    margin:20vh auto;
+}
+button:hover{
+    opacity: 0.8;
+}
