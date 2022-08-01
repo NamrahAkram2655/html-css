@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.purple {
+    color: rgb(72, 10, 131);
+}
+
+#navbar {
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+    height: 13vh;
+    align-items: center;
+    padding: 0rem 4rem;
+    justify-content: space-between;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 0rem 2rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#navbar h1 {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.empty {
+    background-color: rgb(65, 11, 116);
+    width: 100%;
+    height: 1vh;
+    margin-bottom: 1rem;
+}
+
+.second-navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    height: 13vh;
+    align-items: center;
+    padding: 0rem 4rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.second-navbar .btn {
+    padding: 7px;
+    background-color: rgb(65, 11, 116);
+    border: 2px solid rgb(65, 11, 116);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.second-navbar .bttn {
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.container1 {
+    padding: 0rem 7rem;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container2 img {
+    height: 14vh;
+    padding: 0px 1.2rem;
+}
+
+.container3 {
+    background-color: black;
+    opacity: 0.8;
+    height: 64vh;
+}
+
+.container3 h2 {
+    color: white;
+    text-align: center;
+}
+
+.formgroup label {
+    font-size: 1.2rem;
+    display: block;
+}
+
+.formgroup textarea {
+    width: 24vw;
+    height: 25vh;
+}
+
+.formgroup {
+    display: flex;
+    justify-content: center;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.formgroup input {
+    width: 24vw;
+    height: 4vh;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 5px;
+    color: white;
+    border: 2px solid rgb(67, 8, 122);
+    background-color: rgb(67, 8, 122);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+footer {
+    height: 11vh;
+    background-color: rgb(67, 8, 122);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
