@@ -1,0 +1,320 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+#navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    opacity: 0.6;
+    border-bottom: 5px solid crimson;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+#navbar .logo img{
+    height: 8vh;
+    filter: invert();
+}
+#navbar .logo{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+#navbar .logo p{
+    font-size: 25px;
+    padding: 0px 9px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 23px;
+}
+#navbar ul li span{
+    font-weight: bold;
+}
+#navbar ul li p{
+    color: white;
+font-weight: bold;
+font-size: 43px;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+    font-weight:700;
+}
+.form1 input{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+.form1 button{
+    padding: 7px;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    border-radius: 4px;
+    border: 3px solid crimson;
+}
+.form1 button:hover{
+    background-color: rgb(187, 28, 60);
+}
+/* header */
+header{
+    background: url('https://tender-knuth-32e30d.netlify.app/img/wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 100vh;
+}
+/*  container inside header */
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    color: white;
+    line-height: 53px;
+    /* used these two properties bcz of postion fixed at class nav everything was fixed at top */
+    position: relative;
+    top: 8rem;
+}
+.container1 h1{
+    font-size: 3.5rem;
+}
+.container1 button{
+    border: 3px solid crimson;
+    background-color: crimson;
+    padding: 7px;
+    color: wheat;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.container1 button:hover{
+    background-color: rgb(187, 28, 60);
+}
+/* main prices */
+#prices{
+    margin-top: 40px;
+    text-align: center;
+}
+#prices span{
+    color: crimson;
+}
+#prices h1{
+    font-size: 2.5rem;
+}
+.items{
+    display: flex;
+    justify-content: center;
+}
+.items .box1{
+    border: 2px solid rgb(48, 46, 46);
+    background-color:rgb(48, 46, 46);
+    color: white;
+    border-radius: 5px;
+    height: 50vh;
+    width: 20vw;
+    margin: 20px;
+}
+.box1 p{
+    margin-top: 20px;
+    font-size: 19px;
+    padding: 0px 43px;
+    line-height: 23px;
+}
+.box1 h2{
+    margin-top: 10px;
+}
+.box1 button{
+    margin-top: 30px;
+    padding: 6px;
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+/* Classes */
+#classes{
+    margin-top: 40px;
+    text-align: center;
+}
+#classes span{
+    color: crimson;
+}
+#classes h1{
+    font-size: 2.5rem;
+}
+.gym{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#classes .weight-img{
+    border: 2px solid lightgray;
+    height: 90vh;
+    width: 20vw;
+    margin: 20px;
+}
+.weight-img h2{
+    margin-top: 10px;
+}
+.weight-img p{
+    margin-top: 10px;
+    color: gray;
+    font-size: 19px;
+}
+#classes .weight-img img{
+    height: 60vh;
+    width: 20vw;
+}
+.weight-img button{
+    margin-top: 10px;
+    padding: 7px;
+    border: 2px solid skyblue;
+    color: skyblue;
+    border-radius: 7px;
+}
+/* gallery */
+#gallery{
+    color: white;
+    margin-top: 30px;
+    background-color: rgb(48, 43, 43);
+    height: 65vh;
+}
+#gallery img{
+    height: 50vh;
+    padding: 0px 40px;
+}
+#gallery h1{
+  padding-top: 20px;
+    font-size: 2.3rem;
+    text-align: center;
+}
+#gallery span{
+    color: crimson;
+}
+.container2{
+    display: flex;
+}
+#gallery .reviews h2{
+    font-size: 1.8rem;
+}
+#gallery .reviews .p1{
+    font-size: 25px;
+}
+#gallery .reviews .p2{
+    color: gray;
+}
+#gallery .reviews{
+    line-height: 53px;
+}
+/* contacts */
+#contacts{
+    background: url('https://tender-knuth-32e30d.netlify.app/img/dumbbell-1966247_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+}
+#contacts span{
+    color: crimson;
+}
+#contacts h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+#contacts .history{
+    padding: 24px 30px;
+    /* border: 2px solid red; */
+    height: 50vh;
+    width: 45vw;
+}
+.history h2{
+    font-size: 28px;
+}
+.history p{
+    font-size: 20px;
+    padding-top: 12px;
+    line-height: 1.6rem;
+    margin-bottom: 25px;
+}
+.history button{
+    background: transparent;
+    border: 2px solid crimson;
+    color: crimson;
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.history button:hover{
+    background-color: crimson;
+    color: white;
+}
+#contacts .form2{
+   margin-top: 30px;
+   height: 60vh;
+   width: 40vw;
+   /* border: 2px solid chartreuse; */
+   text-align: center;
+   background-color: white;
+   color: rgb(85, 78, 78);
+}
+.container3{
+    display: flex;
+}
+.form2 form input{
+    display: block;
+    width: 35vw;
+    border-radius: 6px;
+    height: 5vh;
+    margin: 23px;
+}
+.form2 button{
+    width: 34vw;
+    height: 5vh;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 17px;
+    border: 1px solid black;
+}
+.form2 button:hover{
+    background-color: gray;
+    color: white;
+}
+/* footer */
+footer{
+    border-top: 3px solid crimson;
+    background-color: rgb(61, 58, 58);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+}
+/* to make navbar stick at top */
+.nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+}

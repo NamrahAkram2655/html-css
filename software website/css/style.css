@@ -14,11 +14,7 @@
     opacity: 0.7;
     background-color: black;
     border-bottom: 5px solid blue;
-    position: sticky;
-    top: 0;
-    z-index: 1;
 }
-
 #navbar ul {
     display: flex;
 }
@@ -141,9 +137,19 @@ form input {
 
 /* main class containing both formgroup and container */
 .main {
+    position: relative;
+    top: 6rem;
     display: flex;
 }
 
+/* to make navbar stick  */
+.nav{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 /* main id=""what" */
 #what {
     margin-top: 20px;
