@@ -1,0 +1,247 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* navbar styling */
+#navbar {
+    background-color: rgb(70, 61, 61);
+    display: flex;
+    height: 11vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    border-bottom: #93cb52 3px solid
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    padding: 0px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+ul li a:hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    color: #93cb52;
+}
+
+#navbar h1 {
+    font-size: 2.3rem;
+    color: white;
+}
+
+#navbar img {
+    height: 10vh;
+}
+
+/* header start */
+header {
+    background: url('https://admiring-curran-643618.netlify.app/img/showcase.jpg');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* inside header */
+#home {
+    height: 80vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 5rem;
+}
+
+#home h1 {
+    font-size: 4rem;
+}
+
+#home p {
+    font-size: 1.4rem;
+}
+
+.btn {
+    background-color: #93cb52;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #93cb52;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(100, 148, 53);
+}
+/* What */
+#what h1 {
+    font-size: 34px;
+}
+
+#what span {
+    color: #93cb52;
+}
+
+#what {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+}
+
+.images img {
+    height: 12vh;
+}
+
+.box1 h2,
+p {
+    margin-top: 12px;
+}
+/* Who */
+#who {
+    display: flex;
+    color: white;
+}
+
+.images .box1 {
+    height: 30vh;
+    width: 20vw;
+    /* border: 2px solid #93cb52; */
+}
+
+#who img {
+    height: 50vh;
+    width: 50vw;
+
+}
+
+.two {
+    background-color: rgb(34, 29, 29);
+}
+
+.two {
+    width: 46vw;
+    height: 50vh;
+    padding: 0px 23px;
+}
+
+.two h1 {
+    font-size: 38px;
+}
+
+.two h2 {
+    margin-top: 7px;
+}
+
+.two hr {
+    color: grey;
+    text-decoration: dotted;
+    margin-top: 10px;
+}
+/* clients */
+#clients {
+    padding: 0px 19rem;
+}
+
+#clients h1 {
+    font-size: 43px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#clients .green {
+    color: #93cb52;
+}
+
+#images img {
+    height: 75vh;
+    padding: 0px;
+}
+
+#clients .three form {
+    line-height: 33px;
+}
+form{
+    margin-top: 10px;
+}
+form input {
+    border-radius: 5px;
+    width: 30vw;
+    height: 4vh;
+}
+
+form label {
+    font-size: 23px;
+    display: block;
+}
+
+.three h1 {
+    color: rgb(54, 45, 45);
+}
+
+.three {
+    padding: 0px 20px;
+    width: 50vw;
+    height: 50vh;
+    background-color: #93cb52;
+}
+
+.btn2 {
+    width: 30vw;
+    margin-top: 12px;
+    border-radius: 5px;
+    background-color: rgb(54, 45, 45);
+    color: white;
+    border: 2px solid rgb(54, 45, 45);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.four img {
+    height: 50vh;
+    width: 46vw;
+}
+
+/* footer */
+#contacts {
+    color: white;
+    margin-top: 38px;
+    display: flex;
+}
+footer {
+    background-color: rgb(54, 45, 45);
+    color: white;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

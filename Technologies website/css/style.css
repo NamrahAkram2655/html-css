@@ -1,0 +1,295 @@
+/* resaat */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+#navbar {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    opacity: 0.7;
+    background-color: black;
+    border-bottom: 5px solid blue;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    font-size: 23px;
+}
+
+#navbar ul li a:hover {
+    font-weight: bold;
+}
+
+#navbar input {
+    width: 15vw;
+    border-radius: 5px;
+    height: 5vh;
+}
+
+#navbar button {
+    padding: 8px;
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar span {
+    color: blue;
+}
+
+#navbar .shah {
+    font-size: 4rem;
+}
+
+/* bg img header */
+header {
+    background: url('https://awesome-spence-10ee89.netlify.app/Img/alesia-kazantceva-XLm6-fPwK5Q-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    opacity: 0.9;
+}
+
+/* header child */
+.container {
+    width: 52vw;
+    height: 40vh;
+    padding: 0px 55px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1 {
+    width: 50vw;
+    background-color: white;
+    color: black;
+    font-size: 2.3rem;
+}
+
+.container p {
+    width: 55vw;
+    background-color: black;
+    opacity: 0.7;
+    height: 14vh;
+    font-size: 20px;
+    color: white;
+}
+
+.container span {
+    color: blue;
+}
+
+.formgroup {
+    background-color: blue;
+    color: white;
+    height: 50vh;
+    width: 20vw;
+    text-align: center;
+    margin: 23px;
+    line-height: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 5px;
+    margin: 5px;
+    width: 17vw;
+    height: 5vh;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+form input {
+    border-radius: 5px;
+    margin: 9px;
+    width: 17vw;
+    height: 5vh;
+    display: block;
+}
+
+/* main class containing both formgroup and container */
+.main {
+    display: flex;
+}
+
+/* main id=""what" */
+#what {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#what span {
+    color: blue;
+}
+
+#what h1 {
+    font-size: 3rem;
+}
+
+#what img {
+    height: 12px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    /* border: 2px solid red; */
+}
+
+.box h2 {
+    margin-top: 25px;
+}
+
+.items .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+    width: 25vw;
+    margin: 10px;
+    /* border: 2px solid red; */
+    line-height: 1.6rem;
+}
+
+#what .items img {
+    height: 16vh;
+    padding: 0 8rem;
+}
+
+.box p {
+    font-size: 18px;
+    color: rgb(99, 89, 89);
+}
+
+/* clients */
+#clients {
+    background: url('https://awesome-spence-10ee89.netlify.app/Img/Section.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#clients h1 {
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 30px;
+}
+
+#clients span {
+    color: blue;
+}
+
+#clients img {
+    height: 10px;
+}
+
+#clients .images {
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    justify-content: center;
+    color: white;
+}
+
+#clients .images img {
+    height: 10vh;
+}
+
+#clients .images div {
+    height: 25vh;
+    width: 30vw;
+    margin: 20px;
+    /* border: 2px solid red; */
+}
+
+/* projects */
+#projects {
+    text-align: center;
+}
+
+#projects h1 {
+    font-size: 2.5rem;
+    margin-top: 70px;
+}
+
+#projects span {
+    color: blue;
+}
+
+#projects div img {
+    height: 10px;
+}
+
+#projects .tech {
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    padding: 0px 60px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#projects .tech .t1 img {
+    height: 30vh;
+    width: 15vw;
+}
+
+#projects .t1 {
+    margin:0px 10px 0px 30px;
+    height: 45vh;
+    width: 50vw;
+    background-color: rgb(114, 99, 99);
+    /* border: 2px solid aqua; */
+}
+
+#projects .t1 p {
+    color: white;
+    font-size: 19px;
+}
+
+footer {
+    margin-top: 4rem;
+    height: 12vh;
+    background-color: rgb(116, 108, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
