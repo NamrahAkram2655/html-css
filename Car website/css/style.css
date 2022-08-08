@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar .logo img{
+    height: 11vh;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;    
+}
+.btn{
+    height:30px;
+    background-color: rgb(66, 61, 61);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0px 40px;
+}
+.btn img{
+    height: 10px;
+    filter: invert();
+}
+/* home */
+#home{
+    padding: 20px;
+    /* border: 2px solid green; */
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+}
+#home p{
+    margin-top: 20px;
+    line-height: 1.2rem;
+}
+#home h1{
+    font-size: 2.3rem;
+}
+.btn2{
+    padding: 9px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    border: 2px solid blue;
+}
+.btn3{
+    margin: 10px;
+    padding: 7px;
+    color: black;
+    font-weight: bold;
+}
+#home button{
+    margin-top: 20px;
+}
+.car img{
+    height: 50vh;
+}
+/* section logos */
+.logos{
+    padding: 0px 55px;
+}
+.logos img{
+    margin-top: 20px;
+    padding: 15px;
+    height: 12vh;
+}
+/* collection */
+#collection{
+    padding: 0px 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    width: 85%;
+}
+#collection div{
+    margin: 20px;
+}
+#collection h1{
+    margin-top: 20px;
+    font-size: 34px;
+}
+#collection p{
+    margin-top: 20px;
+    font-size: 19px;
+}
+#collection button{
+    margin-top: 20px;
+}
+#collection .btn4{
+    padding: 8px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+/* section services */
+#services{
+    background-image: linear-gradient(165deg,white,rgb(94, 90, 90),rgb(36, 34, 34));
+    height: 50vh;
+    width: 100%;
+}
+#services .rent h2{
+    color: blue;
+}
+#services .rent h1{
+    font-size: 2.4rem;
+    color: white;
+    margin-top: 20px;
+}
+#services .rent{
+    padding-top: 25px;
+    text-align: center;
+    margin: 20px;
+}
+#services .rent p{
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 0px 9rem;
+}
+/* Cards */
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.cards .card1{
+    margin: 20px;
+    padding: 15px;
+    height: 40vh;
+    width: 20vw;
+    border-top: 7px solid blue;
+    background-color: white;
+}
+.card1 img{
+    height: 52px;
+}
+.card1 h2{
+    margin-top: 20px;
+}
+.card1 p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* contact */
+#contact{
+    text-align: center;
+    margin-top: 16rem;
+}
+#contact h1{
+    margin-top: 20px;
+}
+
+#contact ul{
+    margin-top: 10px;
+    display: flex;
+}
+#contact ul li{
+    font-size: 18px;
+    margin: 0 8rem;
+}
+#contact .images{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: start;
+}
+#contact .box1 img{
+    margin:10px 75px;
+    height: 30vh;
+    width: 20vw;
+}
+#contact .box1{
+    background-color: white;
+    /* border: 2px solid red; */
+}
+#contact .box1 p{
+    margin: 0px 75px;
+    font-size: 19px;
+}
+.btn5{
+    background-color: blue;
+    color: white;
+}
+.box1 .btn5, .btn6{
+    margin:10px 75px;
+    padding: 7px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 18px;
+    width: 15vw;
+}
+/* section end  */
+#end{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn7{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    width: 12vw;
+    font-size: 18px;
+    border: 2px solid blue;
+}
+/* renty */
+#renty{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 40px;
+    height: 40vh;
+    background-image: linear-gradient(163deg,darkblue,skyblue,blue);
+}
+#renty h1{
+    margin-top: 20px;
+}
+#renty p{
+    margin-top: 40px;
+    padding: 0px 80px;
+    line-height: 1.5rem;
+}
+#renty button{
+    margin-top: 20px;
+}
+.btn8, .btn9{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 9px;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
