@@ -1,4 +1,4 @@
-A web page: A small website showing ingrediants for breakfast
+A web page: A small website showing ingrediants for breakfast <br>
 Car Website: A static website which shows the various cars for rent
 Edge Ldger Website: A static website design for a company which displays all information
 Fitzone Wesbite: A static websites displays a gym and a form so you can join it
