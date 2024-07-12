@@ -227,6 +227,9 @@
     color: white;
     margin-top: 40px;
     height: 40vh;
+    width: 90%;
+    margin: 0px 86px;
+    box-shadow: 0px 0px 13px black;
     background-image: linear-gradient(163deg,darkblue,skyblue,blue);
 }
 #renty h1{
@@ -253,4 +256,22 @@ button:hover{
 }
 html{
     scroll-behavior: smooth;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 17vh;
+}
+footer ul li{
+    padding: 1.4rem;
+    list-style: none;
+}
+footer ul{
+    display: flex;
+}
+footer img{
+    height: 7vh;
 }

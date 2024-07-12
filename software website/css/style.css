@@ -210,6 +210,8 @@ form input {
     height: 50vh;
     opacity: 0.9;
     text-align: center;
+    position: relative;
+    z-index: -1;
 }
 
 #clients h1 {
